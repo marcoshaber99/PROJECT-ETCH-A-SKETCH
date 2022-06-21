@@ -30,9 +30,10 @@ populateBoard(16);
 
 function changeSize(input) {
   if (input >= 2 && input <= 100) {
+    document.querySelector(".errorMsg").style.display = "none";
     populateBoard(input);
   } else {
-    console.log("not a valid amount of squares");
+    document.querySelector(".errorMsg").style.display = "flex";
   }
 }
 
