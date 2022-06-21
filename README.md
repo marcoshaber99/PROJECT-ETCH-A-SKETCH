@@ -1,3 +1,5 @@
 # PROJECT-ETCH-A-SKETCH
 
-This is a Milwaukee Bucks themed sketchPad
+Simple sketch Pad :
+-you can adjust the grid size
+-select from different colors
